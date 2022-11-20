@@ -38,7 +38,7 @@ namespace Module9
         }
         public static void collectOrder(ref List<Orders> o)
         {
-        //===================================>THESE ARE THE LINES THAT IS CONFUSING ME!!!!!!!!!!
+        //===================================>THESE ARE THE LINES THAT ARE CONFUSING ME!!!!!!!!!!
             var listOfDesign = File.ReadLines("Design.csv").Select(Line => new Design(line)).ToList();
             var listOfDecoration = File.ReadLine("Decorations.csv").Select(Line => new Decorations(line)).ToList();
 
